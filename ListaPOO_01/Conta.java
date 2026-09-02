@@ -16,7 +16,7 @@ public class Conta {
     }
 
     int get_numero() {
-        return this.numero.
+        return this.numero;
     }
 
     /*
@@ -26,11 +26,15 @@ public class Conta {
     */
 
     public void depositar(double valor) {
-        saldo += valor;
+        if (valor < 0) {
+            System.out.println("Valor digitado deve ser positivo\nTente novamente");
+        } else saldo += valor;
     }
 
     public void sacar(double valor) {
-        saldo -= valor;
+        if (valor > saldo || valor < 0) {
+            System.out.println("Saldo insuficiente ou valor negativo\nTente novamente");
+        } else saldo -= valor;
     }
 
     public double consultarSaldo() {
