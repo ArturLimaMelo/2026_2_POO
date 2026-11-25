@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "descricao": "A",
+        "preco": 24.75,
+        "estoque": 0,
+        "idCategoria": 1
+    },
+    {
+        "id": 2,
+        "descricao": "asdasdeq",
+        "preco": 112.5,
+        "estoque": 50,
+        "idCategoria": 4
+    }
+]

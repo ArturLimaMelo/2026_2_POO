@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "id_cliente": 2,
+        "nome_cliente": "a",
+        "itens": [
+            {
+                "produto_id": 1,
+                "descricao": "A",
+                "preco": 11.0,
+                "quantidade": 1
+            }
+        ],
+        "data": "2026-11-25T12:56:59.275553",
+        "status": "Confirmado"
+    },
+    {
+        "id": 2,
+        "id_cliente": 2,
+        "nome_cliente": "ab",
+        "itens": [
+            {
+                "produto_id": 1,
+                "descricao": "A",
+                "preco": 24.75,
+                "quantidade": 1
+            }
+        ],
+        "data": "2026-11-25T13:07:44.047280",
+        "status": "Confirmado"
+    },
+    {
+        "id": 3,
+        "id_cliente": 2,
+        "nome_cliente": "ab",
+        "itens": [
+            {
+                "produto_id": 2,
+                "descricao": "asdasdeq",
+                "preco": 112.5,
+                "quantidade": 9
+            }
+        ],
+        "data": "2026-11-25T13:07:50.674884",
+        "status": "Confirmado"
+    }
+]

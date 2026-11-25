@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nome": "Administrador",
+        "email": "admin",
+        "telefone": "",
+        "salt": "8409e9c7667126a208057b24e2fb21bf",
+        "senha_hash": "27aad1b9a882a13e6054faf6692733851d8e04aa6a0b5e0ca890950d6be08e7d"
+    },
+    {
+        "id": 2,
+        "nome": "ab",
+        "email": "a",
+        "telefone": "2",
+        "salt": "3440b0d30d0c66bf7f5ef5cb642d8444",
+        "senha_hash": "d5e7c13a17d772dd4cd4cad0b65a21d5fa692499d84d5990bd18b4d332e9f653"
+    }
+]
